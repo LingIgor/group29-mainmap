@@ -1,0 +1,28 @@
+body {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: #a5d6f7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.hdr-h {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.2;
+  color: blue;
+}
+
+.mn {
+}
