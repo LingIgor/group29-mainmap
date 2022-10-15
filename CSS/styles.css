@@ -20,6 +20,11 @@ h1 {
   color: #fff;
 }
 
+.container {
+  background-color: #3a4dab;
+  margin: 0 auto;
+  padding: 0;
+}
 .hdr-h {
   text-align: center;
   padding: 25px;
@@ -45,6 +50,38 @@ h1 {
   margin: 15px;
   border-radius: 20px;
   display: inline-block;
+  color: #fff;
+  background-color: #000;
+}
+
+.d1:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.d2:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.d3:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.d4:hover {
+  color: #343234;
+  background-color: #fff;
+}
+
+.d5:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.d6:hover {
+  color: black;
+  background-color: #fff;
 }
 
 .d7,
@@ -53,6 +90,8 @@ h1 {
 .d10,
 .d11,
 .d12 {
+  color: black;
+  background-color: #fff;
   border: 2px black solid;
   max-width: 14.3%;
   padding: 10px;
@@ -61,21 +100,50 @@ h1 {
   display: inline-block;
 }
 
+.d7:hover {
+  color: #fff;
+  background-color: black;
+}
+.d8:hover {
+  color: #fff;
+  background-color: black;
+}
+.d9:hover {
+  color: #fff;
+  background-color: black;
+}
+.d10:hover {
+  color: #fff;
+  background-color: black;
+}
+.d11:hover {
+  color: #fff;
+  background-color: black;
+}
+.d12:hover {
+  color: #fff;
+  background-color: black;
+}
+
 .block-h {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  background-color: green;
 }
 
 .main-h2 {
-  max-width: 20%;
+  font-size: 30px;
+  padding: 50px;
+  background-color: black;
+  text-align: center;
+  margin: 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
 }
-
-.container {
-  background-color: #a5d6f7;
-  margin: 0 auto;
-  padding: 0;
+.main-h2:hover,
+.main-h2:focus {
+  color: black;
+  background-color: #fff;
 }
 
 .ftr {
