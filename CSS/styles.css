@@ -136,14 +136,14 @@ h1 {
   background-color: black;
   text-align: center;
   margin: 20px;
-  color: #fff;
+  color: gold;
   border: 2px solid #fff;
   border-radius: 20px;
 }
-.main-h2:hover,
-.main-h2:focus {
+.main-h2:hover {
   color: black;
-  background-color: #fff;
+
+  background-color: gold;
 }
 
 .ftr {
