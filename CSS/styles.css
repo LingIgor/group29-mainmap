@@ -144,11 +144,13 @@ h3 {
   color: gold;
   border: 2px solid #fff;
   border-radius: 20px;
+  text-shadow: 3px 3px 4px gold;
 }
+
 .main-h2:hover {
   color: black;
-
   background-color: gold;
+  text-shadow: 5px 5px 5px #000;
 }
 
 .ftr {
