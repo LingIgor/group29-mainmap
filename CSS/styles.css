@@ -8,7 +8,7 @@ body {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.2;
   background-color: #1f1f1f;
 }
@@ -22,7 +22,10 @@ h1 {
 
 h3 {
   font-weight: 700;
-  font-size: 10px;
+  font-size: 13px;
+}
+h4 {
+  font-weight: 400;
 }
 
 .container {
@@ -50,9 +53,9 @@ h3 {
 .d5,
 .d6 {
   border: 2px black solid;
-  max-width: 14.3%;
+  max-width: 16%;
   padding: 5px;
-  margin: 15px;
+  margin: 1px;
   border-radius: 20px;
   display: inline-block;
   color: #fff;
@@ -98,9 +101,9 @@ h3 {
   color: black;
   background-color: #fff;
   border: 2px black solid;
-  max-width: 14.3%;
-  padding: 10px;
-  margin: 15px;
+  max-width: 16%;
+  padding: 5px;
+  margin: 1px;
   border-radius: 20px;
   display: inline-block;
 }
