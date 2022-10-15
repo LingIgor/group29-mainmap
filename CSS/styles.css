@@ -1,28 +1,90 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  background-color: #a5d6f7;
+  background-color: #1f1f1f;
 }
 
-h1,
-h2,
-h3 {
-  font-family: Inter, sans-serif;
-  font-style: normal;
+h1 {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 30px;
+
+  color: #fff;
 }
 
 .hdr-h {
+  text-align: center;
+  padding: 25px;
+
+  height: 100px;
+  margin: 0 0;
   font-weight: 700;
   font-size: 35px;
   line-height: 1.2;
-  color: blue;
+  color: #fff;
+  background-color: #1f1f1f;
 }
 
-.mn {
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6 {
+  border: 2px black solid;
+  max-width: 14.3%;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.d7,
+.d8,
+.d9,
+.d10,
+.d11,
+.d12 {
+  border: 2px black solid;
+  max-width: 14.3%;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.block-h {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: green;
+  padding: ;
+}
+
+.main-h2 {
+  max-width: 20%;
+}
+
+.container {
+  background-color: #a5d6f7;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ftr {
+  background-color: #1f1f1f;
+  color: white;
+  text-align: center;
+}
+
+.ftr-foto {
+  background-color: #1f1f1f;
 }
